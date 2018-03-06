@@ -4,7 +4,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: '应用概览',
     icon: 'nb-home',
-    link: '/pages/echart',
+    link: '/pages/echarts',
     home: true,
   },
   {
@@ -14,11 +14,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: '单个APP',
     icon: 'nb-keypad',
-    link: '/pages/ui-features',
+    link: '/pages/test',
     children: [
       {
         title: '单个APP概览',
-        link: '/pages/ui-features/buttons',
+        link: '/pages/test',
       },
       {
         title: 'APP版本演化分析',
@@ -56,7 +56,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: '用户概览',
-        link: '/pages/forms/inputs',
+        link: '/pages/user/all',
       },
       {
         title: '日使用手机时长分析',
@@ -72,7 +72,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
       {
         title: '兴趣分布分析',
-        link: '/pages/forms/layouts',
+        link: '/pages/user/interest',
       },
       {
         title: 'APP使用历史',
@@ -120,15 +120,15 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
       {
         title: '设备型号',
-        link: '/pages/maps/bubble',
+        link: '/pages/maps/bubble2',
       },
       {
         title: '设备分辨率',
-        link: '/pages/maps/bubble',
+        link: '/pages/maps/bubble2',
       },
       {
         title: '设备地理位置',
-        link: '/pages/maps/bubble',
+        link: '/pages/maps/bubble2',
       },
     ],
   },
