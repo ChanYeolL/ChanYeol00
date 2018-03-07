@@ -56,6 +56,8 @@
     "echarts": "^4.0.4",
     "font-awesome": "4.7.0",
     "intl": "1.2.5",
+    "ionic-angular": "^3.9.2",
+    "ionic2-city-picker": "0.0.11",
     "ionicons": "2.0.1",
     "jquery": "^3.3.1",
     "leaflet": "1.0.3",
