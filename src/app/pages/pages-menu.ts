@@ -60,11 +60,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
       {
         title: '日使用手机时长分析',
-        link: '/pages/forms/layouts',
+        link: '/pages/user/time',
       },
       {
         title: 'APP使用状况统计',
-        link: '/pages/forms/layouts',
+        link: '/pages/user/status',
       },
       {
         title: '日使用手机次数分析',
