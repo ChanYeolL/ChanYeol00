@@ -18,3 +18,18 @@
   // loading progress bar
   @include ngx-pace-theme();
 };
+
+
+.bg h4 {
+  margin-bottom: 0;
+  //color: #2a2a2a;
+  //font-size: 1.125rem;
+  //font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 0.5rem;
+}
+.bg div {
+  padding-left: 1rem;
+  padding-top: 0;
+}

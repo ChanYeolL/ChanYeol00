@@ -14,19 +14,19 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: '单个APP',
     icon: 'nb-keypad',
-    link: '/pages/test',
+    link: '/pages/maps',
     children: [
       {
         title: '单个APP概览',
-        link: '/pages/test',
+        link: '/pages/maps/gmaps',
       },
       {
         title: 'APP版本演化分析',
-        link: '/pages/ui-features/grid',
+        link: '/pages/maps/leaflet',
       },
       {
         title: '用户活跃分析',
-        link: '/pages/ui-features/icons',
+        link: '/pages/maps/bubble',
       },
       {
         title: '日使用时长分析',
@@ -68,7 +68,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
       {
         title: '日使用手机次数分析',
-        link: '/pages/forms/layouts',
+        link: '/pages/user/number',
       },
       {
         title: '兴趣分布分析',
@@ -76,7 +76,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
       {
         title: 'APP使用历史',
-        link: '/pages/forms/layouts',
+        link: '/pages/user/history',
       },
     ],
   },
@@ -86,19 +86,19 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: '用户构成概览',
-        link: '/pages/components/tree',
+        link: '/pages/users/all',
       }, {
         title: '用户兴趣分布',
-        link: '/pages/components/notifications',
+        link: '/pages/users/interest',
       }, {
         title: '用户地域分布',
-        link: '/pages/components/notifications',
+        link: '/pages/users/area',
       }, {
         title: '用户使用手机时长分段',
-        link: '/pages/components/notifications',
+        link: '/pages/users/segment',
       }, {
         title: '用户使用手机时段',
-        link: '/pages/components/notifications',
+        link: '/pages/users/interval',
       },
     ],
   },

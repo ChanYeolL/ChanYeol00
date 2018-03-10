@@ -8,10 +8,7 @@ const routes: Routes = [{
   path: '',
   component: PagesComponent,
   children: [
-    {
-      path: 'echarts',
-      loadChildren: './echarts/echarts.module#EchartsModule',
-    }, {
+   {
       path: 'maps',
       loadChildren: './maps/maps.module#MapsModule',
     },
@@ -22,6 +19,9 @@ const routes: Routes = [{
     {
       path: 'user',
       loadChildren: './user-analysis/user-analysis.module#UserAnalysisModule',
+    }, {
+      path: 'users',
+      loadChildren: './users-composition/users-composition.module#UsersCompositionModule',
     },
     {
       path: '',

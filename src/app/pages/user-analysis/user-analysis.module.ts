@@ -3,7 +3,8 @@ import {ThemeModule} from '../../@theme/theme.module';
 import {routedComponents, UserAnalysisRouterModule} from './user-analysis-router.module';
 import {UserAnalysisComponent} from './user-analysis.component';
 import {NgxEchartsModule} from 'ngx-echarts';
-import {TablesModule} from "../tables/tables.module";
+import {TablesModule} from '../tables/tables.module';
+import {DataPickerModule} from "../data-picker/data-picker.module";
 
 @NgModule({
   imports: [
@@ -11,6 +12,7 @@ import {TablesModule} from "../tables/tables.module";
     UserAnalysisRouterModule,
     NgxEchartsModule,
     TablesModule,
+    DataPickerModule,
   ],
   exports: [UserAnalysisComponent],
   declarations: [...routedComponents],
