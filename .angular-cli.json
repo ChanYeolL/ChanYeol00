@@ -43,6 +43,7 @@
         "../node_modules/tinymce/plugins/paste/plugin.min.js",
         "../node_modules/tinymce/plugins/table/plugin.min.js",
         "../node_modules/echarts/dist/echarts.min.js",
+        "../node_modules/echarts-gl/dist/echarts-gl.min.js",
         "../node_modules/echarts/map/js/china.js",
         "../node_modules/moment/min/moment.min.js",
         "../node_modules/jquery/dist/jquery.js",

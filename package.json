@@ -56,6 +56,7 @@
     "d3": "4.8.0",
     "daterangepicker": "^2.1.27",
     "echarts": "^4.0.4",
+    "echarts-gl": "^1.1.0",
     "echarts-stat": "^1.1.0",
     "font-awesome": "4.7.0",
     "intl": "1.2.5",
